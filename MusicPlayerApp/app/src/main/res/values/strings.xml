@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MusicPlayerApp</string>
+    <string name="link_song_text">Song Link:</string>
+    <string name="link_song_hint">enter song link</string>
+    <string name="name_song_text">Song Name:</string>
+    <string name="name_song_hint">enter song name</string>
+    <string name="writer_song_text">Song Writer:</string>
+    <string name="writer_song_hint">enter song writer</string>
+    <string name="new_song_title">Add new song</string>
+    <string name="new_song_subtitle">Please enter the details of the song you would like to add</string>
+    <string name="not_finish_to_fill">Pay Attention! To save the song you need to fill in all the required fields</string>
+    <string name="song_save">song save!</string>
+    <string name="song_not_save">cancel! song not save</string>
+    <string name="title_notification">Media Player</string>
+    <string name="enjoy_text">Enjoy</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="no">No</string>
+    <string name="yes">Yes,i\'m sure</string>
+    <string name="sure_to_delete">Are you sure you want to delete the song?</string>
+</resources>

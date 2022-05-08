@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MusicPlayerApp</string>
+    <string name="link_song_hint">הכנס את קישור לשיר</string>
+    <string name="link_song_text">קישור לשיר:</string>
+    <string name="name_song_text">שם השיר:</string>
+    <string name="name_song_hint">הכנס את שם השיר</string>
+    <string name="writer_song_text">כותב השיר:</string>
+    <string name="writer_song_hint">הכנס את שם הכותב</string>
+    <string name="new_song_title">הוספת שיר חדש</string>
+    <string name="new_song_subtitle">אנא הכנס את פרטי השיר אותו תרצה להוסיף</string>
+    <string name="not_finish_to_fill">שים לב! כדי לשמור את השיר אתה צריך למלא את כל השדות הדרושים</string>
+    <string name="song_save">השיר נשמר!</string>
+    <string name="song_not_save">בוטל! השיר לא נשמר</string>
+    <string name="title_notification">נגן מוזיקה</string>
+    <string name="enjoy_text">תהנו</string>
+    <string name="confirmation">אישור</string>
+    <string name="no">לא</string>
+    <string name="yes">כן,אני בטוח</string>
+    <string name="sure_to_delete">האם אתה בטוח שאתה רוצה למחוק את השיר?</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/app_background">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="@color/blueTitle"
+        android:text="@string/title_notification"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="330dp"
+        android:layout_height="470dp"
+        android:background="@color/lightGrey2"
+        android:layout_centerInParent="true"
+        android:id="@+id/recyclerViewSongs"
+        android:layout_marginBottom="10dp" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_new_song_button"
+        android:src="@drawable/add_new_button"
+        android:background="@null"
+        android:layout_below="@+id/recyclerViewSongs"
+        android:layout_alignEnd="@+id/recyclerViewSongs"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/blueSubTitle"
+            android:text="@string/enjoy_text"
+            android:textStyle="bold"
+            android:layout_below="@id/recyclerViewSongs"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/enjoy_text"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/heart"
+            android:layout_below="@id/enjoy_text"
+            android:layout_centerHorizontal="true"/>
+</RelativeLayout>
